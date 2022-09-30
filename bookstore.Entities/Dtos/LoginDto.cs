@@ -8,7 +8,6 @@ using System.Threading.Tasks;
 
 namespace bookstore.Entities.Dtos
 {
-    [Keyless]
     public class LoginDto
     {
         public string Email { get; set; }

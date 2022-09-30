@@ -1,6 +1,10 @@
 ﻿using bookstore.Business.Abstract;
+using bookstore.Entities.Concrete;
 using bookstore.Entities.Dtos;
+using FluentValidation;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Threading.Tasks;
 
 namespace bookstore.UI.Controllers
@@ -8,9 +12,17 @@ namespace bookstore.UI.Controllers
     public class AccountController : Controller
     {
         private IAuthenticationService _authenticationService;
-        public AccountController(IAuthenticationService authenticationService)
+        private IAppUserService _appUserService;
+        private UserManager<AppIdentityUser> _userManager;
+        private SignInManager<AppIdentityUser> _signInManager;
+        private IValidator<RegisterDto> _userValidator;
+        public AccountController(IAuthenticationService authenticationService, IAppUserService appUserService, UserManager<AppIdentityUser> userManager, SignInManager<AppIdentityUser> signInManager, IValidator<RegisterDto> userValidator)
         {
             _authenticationService = authenticationService;
+            _appUserService = appUserService;
+            _userManager = userManager;
+            _signInManager = signInManager;
+            _userValidator = userValidator;
         }
 
         public IActionResult Login()
@@ -22,15 +34,17 @@ namespace bookstore.UI.Controllers
         {
             if (ModelState.IsValid)
             {
-                var result = await _authenticationService.Login(model);
-                if (result.Succeeded)
+                var user = await _userManager.FindByEmailAsync(model.Email);
+                if (user != null)
                 {
-                    var user = _authenticationService.GetUserByEmail(model.Email);
-                    return RedirectToAction("Index", "Home"); //config this.
+                    var result = await _signInManager.PasswordSignInAsync(user, model.Password, false, false);
+                    if (result.Succeeded)
+                    {
+                        return RedirectToAction("Index", "Home");
+                    }
                 }
             }
-            ModelState.AddModelError("", "Girilen değerleri kontrol ediniz.");
-            return View(model);
+            return View();
         }
 
         public IActionResult Register()
@@ -40,13 +54,28 @@ namespace bookstore.UI.Controllers
         [HttpPost]
         public async Task<IActionResult> Register(RegisterDto model)
         {
-            var result = await _authenticationService.Register(model);
-            if (result.Succeeded)
+            var result = _userValidator.Validate(model);
+            if (result.IsValid)
             {
-                //opt error
+                var user = new AppIdentityUser()
+                {
+
+                    UserName = model.UserName,
+                    Email = model.Email
+
+                };
+                user.Id = Guid.NewGuid().ToString();
+                var result2 = await _userManager.CreateAsync(user, model.Password);
+                if (result2.Succeeded)
+                {
+                    await _signInManager.SignInAsync(user, false);
+                    return RedirectToAction("Index", "Home");
+                }
             }
-            return RedirectToAction("Login");
+            return View();
         }
+
+
         public async Task<IActionResult> Logout()
         {
             await _authenticationService.Logout();
@@ -54,3 +83,5 @@ namespace bookstore.UI.Controllers
         }
     }
 }
+
+

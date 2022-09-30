@@ -6,8 +6,6 @@ using bookstore.Entities.Dtos;
 using FluentValidation.Results;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace bookstore.Business.Concrete
@@ -18,7 +16,7 @@ namespace bookstore.Business.Concrete
 
         AppIdentityValidator validationRules = new AppIdentityValidator();
 
-        public ValidationResult Validation(AppIdentityUser appUser)
+        public ValidationResult Validation(RegisterDto appUser)
         {
             return validationRules.Validate(appUser);
         }

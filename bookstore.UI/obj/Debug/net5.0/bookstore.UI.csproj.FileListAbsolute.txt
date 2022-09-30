@@ -12,6 +12,8 @@ C:\Users\cande\Desktop\bookstore.UI\bookstore.UI\bin\Debug\net5.0\Autofac.dll
 C:\Users\cande\Desktop\bookstore.UI\bookstore.UI\bin\Debug\net5.0\Autofac.Extensions.DependencyInjection.dll
 C:\Users\cande\Desktop\bookstore.UI\bookstore.UI\bin\Debug\net5.0\AutoMapper.dll
 C:\Users\cande\Desktop\bookstore.UI\bookstore.UI\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\cande\Desktop\bookstore.UI\bookstore.UI\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
+C:\Users\cande\Desktop\bookstore.UI\bookstore.UI\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\cande\Desktop\bookstore.UI\bookstore.UI\bin\Debug\net5.0\Humanizer.dll
 C:\Users\cande\Desktop\bookstore.UI\bookstore.UI\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Users\cande\Desktop\bookstore.UI\bookstore.UI\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
@@ -143,6 +145,7 @@ C:\Users\cande\Desktop\bookstore.UI\bookstore.UI\obj\Debug\net5.0\bookstore.UI.G
 C:\Users\cande\Desktop\bookstore.UI\bookstore.UI\obj\Debug\net5.0\bookstore.UI.AssemblyInfoInputs.cache
 C:\Users\cande\Desktop\bookstore.UI\bookstore.UI\obj\Debug\net5.0\bookstore.UI.AssemblyInfo.cs
 C:\Users\cande\Desktop\bookstore.UI\bookstore.UI\obj\Debug\net5.0\bookstore.UI.csproj.CoreCompileInputs.cache
+C:\Users\cande\Desktop\bookstore.UI\bookstore.UI\obj\Debug\net5.0\bookstore.UI.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\cande\Desktop\bookstore.UI\bookstore.UI\obj\Debug\net5.0\bookstore.UI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\cande\Desktop\bookstore.UI\bookstore.UI\obj\Debug\net5.0\bookstore.UI.RazorAssemblyInfo.cache
 C:\Users\cande\Desktop\bookstore.UI\bookstore.UI\obj\Debug\net5.0\bookstore.UI.RazorAssemblyInfo.cs

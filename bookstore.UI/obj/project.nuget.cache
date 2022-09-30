@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bIhZ6y7ypxudZwhTc1KLW/JeDGXDqedEOIYvHrcwGfSfxdV95LnGBwrHUx54e5rSgeHRTOqJ9XDAbzD3beSfVQ==",
+  "dgSpecHash": "sTCI+vX8R68gz9D96w9F10VfYigqd+cCkhpKuAOlb2p0kRPdRgrm/wN0eaanK6tUM58j1WyW3GWw3/W3Kr49sg==",
   "success": true,
   "projectFilePath": "C:\\Users\\cande\\Desktop\\bookstore.UI\\bookstore.UI\\bookstore.UI.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,8 @@
     "C:\\Users\\cande\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "C:\\Users\\cande\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\cande\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512",
+    "C:\\Users\\cande\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "C:\\Users\\cande\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.1\\fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
     "C:\\Users\\cande\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\cande\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\cande\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

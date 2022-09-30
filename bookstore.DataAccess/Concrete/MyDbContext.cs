@@ -12,9 +12,17 @@ namespace bookstore.DataAccess.Concrete
         }
 
         public MyDbContext(DbContextOptions options) : base(options)
-         {
-         }
+        {
+        }
 
+        //protected override void OnModelCreating(ModelBuilder modelBuilder)
+        //{
+
+        //    modelBuilder.Entity<AppIdentityUser>()
+        //    .Property(e => e.Id)
+        //    .ValueGeneratedOnAdd();
+
+        //}
 
         public DbSet<Product> Product { get; set; }
         public DbSet<Category> Category { get; set; }
@@ -25,11 +33,7 @@ namespace bookstore.DataAccess.Concrete
         public DbSet<Payment> Payment { get; set; }
 
         public DbSet<Cart> Cart { get; set; }
-        
-        
 
-        public DbSet<RegisterDto>RegisterDtos { get; set; }
-        public DbSet<LoginDto> LoginDtos{ get; set; }
 
     }
 }

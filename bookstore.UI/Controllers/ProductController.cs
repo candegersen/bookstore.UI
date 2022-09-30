@@ -24,7 +24,6 @@ namespace bookstore.UI.Controllers
             _mapper = mapper;
         }
 
-
         public async Task<IActionResult> Index()
         {
             var productList = await _productService.GetProductList();

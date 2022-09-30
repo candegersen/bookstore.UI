@@ -14,6 +14,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using bookstore.Business.ValidationRules.FluentValidation;
+using FluentValidation;
+using bookstore.Entities.Dtos;
 
 namespace bookstore.Business.BSDependencyResolver.Autofac
 {
@@ -36,6 +39,9 @@ namespace bookstore.Business.BSDependencyResolver.Autofac
             builder.RegisterType<OrderDetailsDal>().As<IOrderDetailsDal>();
             builder.RegisterType<ShipperDal>().As<IShipperDal>();
             builder.RegisterType<AppIdentityUserDal>().As<IAppIdentityUserDal>();
+
+            builder.RegisterType<AppIdentityValidator>().As<IValidator<RegisterDto>>();
+
 
            
             base.Load(builder);
