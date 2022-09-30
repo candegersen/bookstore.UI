@@ -13,5 +13,6 @@ fluentvalidation,
 autofac.
 
 design:
--n tier architecture.
+-n tier architecture,
+mvc. 
 
