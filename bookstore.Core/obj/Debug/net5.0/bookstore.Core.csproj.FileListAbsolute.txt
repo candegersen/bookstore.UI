@@ -10,3 +10,15 @@ C:\Users\cande\Desktop\bookstore.UI\bookstore.Core\obj\Debug\net5.0\bookstore.Co
 C:\Users\cande\Desktop\bookstore.UI\bookstore.Core\obj\Debug\net5.0\refint\bookstore.Core.dll
 C:\Users\cande\Desktop\bookstore.UI\bookstore.Core\obj\Debug\net5.0\bookstore.Core.pdb
 C:\Users\cande\Desktop\bookstore.UI\bookstore.Core\obj\Debug\net5.0\ref\bookstore.Core.dll
+C:\Users\cande\source\repos\bookstore.UI\bookstore.Core\bin\Debug\net5.0\bookstore.Core.deps.json
+C:\Users\cande\source\repos\bookstore.UI\bookstore.Core\bin\Debug\net5.0\bookstore.Core.dll
+C:\Users\cande\source\repos\bookstore.UI\bookstore.Core\bin\Debug\net5.0\bookstore.Core.pdb
+C:\Users\cande\source\repos\bookstore.UI\bookstore.Core\obj\Debug\net5.0\bookstore.Core.csproj.AssemblyReference.cache
+C:\Users\cande\source\repos\bookstore.UI\bookstore.Core\obj\Debug\net5.0\bookstore.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cande\source\repos\bookstore.UI\bookstore.Core\obj\Debug\net5.0\bookstore.Core.AssemblyInfoInputs.cache
+C:\Users\cande\source\repos\bookstore.UI\bookstore.Core\obj\Debug\net5.0\bookstore.Core.AssemblyInfo.cs
+C:\Users\cande\source\repos\bookstore.UI\bookstore.Core\obj\Debug\net5.0\bookstore.Core.csproj.CoreCompileInputs.cache
+C:\Users\cande\source\repos\bookstore.UI\bookstore.Core\obj\Debug\net5.0\bookstore.Core.dll
+C:\Users\cande\source\repos\bookstore.UI\bookstore.Core\obj\Debug\net5.0\refint\bookstore.Core.dll
+C:\Users\cande\source\repos\bookstore.UI\bookstore.Core\obj\Debug\net5.0\bookstore.Core.pdb
+C:\Users\cande\source\repos\bookstore.UI\bookstore.Core\obj\Debug\net5.0\ref\bookstore.Core.dll

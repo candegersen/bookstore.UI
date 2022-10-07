@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jbDhLOrTH+EpP8m+jb89eqNL/CL26LuBIEmH6t0yZ/NDLYwWn2X/ghOg5sg5AIdEdkteTkTWi6c2Sf/AO5Wfow==",
+  "dgSpecHash": "o7jqF7kWhJGDmCJMammG1fDFjKExBlpZbI+ObprvHwnDtXVJacr2Atql7roBzNVOd1csNyyG3olFmRn7keRZzQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cande\\Desktop\\bookstore.UI\\bookstore.Business\\bookstore.Business.csproj",
+  "projectFilePath": "C:\\Users\\cande\\source\\repos\\bookstore.UI\\bookstore.Business\\bookstore.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cande\\.nuget\\packages\\autofac\\6.4.0\\autofac.6.4.0.nupkg.sha512",
     "C:\\Users\\cande\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",

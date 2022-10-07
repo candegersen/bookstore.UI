@@ -584,11 +584,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cande\\Desktop\\bookstore.UI\\bookstore.Core\\bookstore.Core.csproj",
+      "projectUniqueName": "C:\\Users\\cande\\source\\repos\\bookstore.UI\\bookstore.Core\\bookstore.Core.csproj",
       "projectName": "bookstore.Core",
-      "projectPath": "C:\\Users\\cande\\Desktop\\bookstore.UI\\bookstore.Core\\bookstore.Core.csproj",
+      "projectPath": "C:\\Users\\cande\\source\\repos\\bookstore.UI\\bookstore.Core\\bookstore.Core.csproj",
       "packagesPath": "C:\\Users\\cande\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cande\\Desktop\\bookstore.UI\\bookstore.Core\\obj\\",
+      "outputPath": "C:\\Users\\cande\\source\\repos\\bookstore.UI\\bookstore.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cande\\AppData\\Roaming\\NuGet\\NuGet.Config",

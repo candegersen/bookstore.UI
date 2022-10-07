@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2YviQWCamu8o/pv1EkiwdeaxYIRcRo5Do0ohOddpc/oxRJVZA3y+l+spjrk/V8hRHUDwt6vKu73tvfVLWW5C8w==",
+  "dgSpecHash": "zLaTB9mo1RrMLjj0B1aSewk6c9nJVwL+ts6LJxJJt4GNknn/QdMRboTYD+AYS9VnU65taRa2eFygyAPaE65a4w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cande\\Desktop\\bookstore.UI\\bookstore.Core\\bookstore.Core.csproj",
+  "projectFilePath": "C:\\Users\\cande\\source\\repos\\bookstore.UI\\bookstore.Core\\bookstore.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cande\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.17\\microsoft.entityframeworkcore.5.0.17.nupkg.sha512",
     "C:\\Users\\cande\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.17\\microsoft.entityframeworkcore.abstractions.5.0.17.nupkg.sha512",

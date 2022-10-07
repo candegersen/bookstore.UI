@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sTCI+vX8R68gz9D96w9F10VfYigqd+cCkhpKuAOlb2p0kRPdRgrm/wN0eaanK6tUM58j1WyW3GWw3/W3Kr49sg==",
+  "dgSpecHash": "jQupvYxAZEHJeGb735w3CVSIhOPS6x8+bpNAA6BnJrqdePXy+nYbk1gHI813zTlvJTSID4H7BzyX4pC05vqpDQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cande\\Desktop\\bookstore.UI\\bookstore.UI\\bookstore.UI.csproj",
+  "projectFilePath": "C:\\Users\\cande\\source\\repos\\bookstore.UI\\bookstore.UI\\bookstore.UI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cande\\.nuget\\packages\\autofac\\6.4.0\\autofac.6.4.0.nupkg.sha512",
     "C:\\Users\\cande\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",

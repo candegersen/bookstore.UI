@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0c95mxYKCDSjH87gU7q7YCzvKZ62My2z2ae2VMUV+ne176vUbIMmbuCSynCeIZF7z1HTPhnmM/4Nqn/821Krbg==",
+  "dgSpecHash": "5yKFbonITgON4n1xSooeUqOymUYQNt/+3EVR5N0EilYL9nQRFcVbqjvd8n8c0lE4/vX2Ebcx7DxPDmp8RvXTjQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cande\\Desktop\\bookstore.UI\\bookstore.Entities\\bookstore.Entities.csproj",
+  "projectFilePath": "C:\\Users\\cande\\source\\repos\\bookstore.UI\\bookstore.Entities\\bookstore.Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cande\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\cande\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.17\\microsoft.aspnetcore.cryptography.internal.5.0.17.nupkg.sha512",

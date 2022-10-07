@@ -7028,11 +7028,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cande\\Desktop\\bookstore.UI\\bookstore.Business\\bookstore.Business.csproj",
+      "projectUniqueName": "C:\\Users\\cande\\source\\repos\\bookstore.UI\\bookstore.Business\\bookstore.Business.csproj",
       "projectName": "bookstore.Business",
-      "projectPath": "C:\\Users\\cande\\Desktop\\bookstore.UI\\bookstore.Business\\bookstore.Business.csproj",
+      "projectPath": "C:\\Users\\cande\\source\\repos\\bookstore.UI\\bookstore.Business\\bookstore.Business.csproj",
       "packagesPath": "C:\\Users\\cande\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cande\\Desktop\\bookstore.UI\\bookstore.Business\\obj\\",
+      "outputPath": "C:\\Users\\cande\\source\\repos\\bookstore.UI\\bookstore.Business\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cande\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7049,11 +7049,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\cande\\Desktop\\bookstore.UI\\bookstore.DataAccess\\bookstore.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\cande\\Desktop\\bookstore.UI\\bookstore.DataAccess\\bookstore.DataAccess.csproj"
+            "C:\\Users\\cande\\source\\repos\\bookstore.UI\\bookstore.DataAccess\\bookstore.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\cande\\source\\repos\\bookstore.UI\\bookstore.DataAccess\\bookstore.DataAccess.csproj"
             },
-            "C:\\Users\\cande\\Desktop\\bookstore.UI\\bookstore.Entities\\bookstore.Entities.csproj": {
-              "projectPath": "C:\\Users\\cande\\Desktop\\bookstore.UI\\bookstore.Entities\\bookstore.Entities.csproj"
+            "C:\\Users\\cande\\source\\repos\\bookstore.UI\\bookstore.Entities\\bookstore.Entities.csproj": {
+              "projectPath": "C:\\Users\\cande\\source\\repos\\bookstore.UI\\bookstore.Entities\\bookstore.Entities.csproj"
             }
           }
         }
