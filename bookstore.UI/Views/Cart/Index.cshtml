@@ -12,6 +12,54 @@
 @{
     decimal totalPrice = 0;
 }
+<style>
+    .padding {
+        padding: 5rem !important;
+        margin-left: 300px;
+    }
+
+    .card {
+        margin-bottom: 1.5rem;
+    }
+
+    .card {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 1px solid rgba(0, 0, 0, 0.125);
+        border-radius: 0.25rem;
+    }
+
+    .card-header:first-child {
+        border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+    }
+
+    .card-header {
+        padding: 0.75rem 1.25rem;
+        margin-bottom: 0;
+        background-color: rgba(0, 0, 0, 0.03);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    }
+
+    .card-body {
+        flex: 1 1 auto;
+        padding: 1.25rem;
+    }
+
+    .form-control:focus {
+        color: #495057;
+        background-color: #fff;
+        border-color: #80bdff;
+        outline: 0;
+        box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    }
+</style>
 
 <div style="display: flex;">
     <div id="payingCard" style="display:none; margin:auto;" class="padding">
@@ -50,7 +98,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                text-size-adjust
                             </div>
                         </div>
 
@@ -114,7 +161,7 @@
 <div id="paySummary" style="width:500px; display:none;" class="card">
     <div class="card-body mx-4">
         <div class="container">
-            <p class="my-5 mx-5" style="font-size: 30px;">Thank for your purchase</p>
+            <p class="my-5 mx-5" style="font-size:30px;">Thank for your purchase</p>
             <div class="row">
                 <ul class="list-unstyled">
                     <li class="text-black">@User.Identity.Name</li>
@@ -179,44 +226,49 @@
             </th>
         </tr>
     </thead>
-</table>
-<tbody>
-    @if (Model != null)
-    {
-        @foreach (var item in Model)
+    <tbody class="justify-content-between">
+        @if (Model != null)
         {
+            @foreach (var item in Model)
+            {
 
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Title)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Price)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Author)
+                    </td>
+                    @{
+                        totalPrice += item.Price;
+                    }
+                </tr>
+            }
+        }
+        else
+        {
             <tr>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Title)
+                    <h1>Sepetinizde ürün bulunmamaktadır.</h1>
                 </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Price)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Author)
-                </td>
-                @{
-                    totalPrice += item.Price;
-                }
             </tr>
-        }
-    }
-    else
-    {
-        <tr>
-            <td colspan="4">
-                Sepetinizde ürün bulunmamaktadır.
-            </td>
-        </tr>
-    }
-</tbody>
 
+        }
+    </tbody>
+    </table>
+<hr />
+@{
+    decimal shipPrice = 10.00M;
+    totalPrice = totalPrice + shipPrice;
+}
 
 <div id="summaryFirst" style="display:flex;">
     <div style="display:grid">
         <h5>Toplam Tutar:</h5>
-        <span id="sum">@totalPrice.ToString() TL</span>
+        <span id="sum">@totalPrice TL</span>
     </div>
 
     <div style="margin-left:auto">
