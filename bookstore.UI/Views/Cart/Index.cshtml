@@ -32,7 +32,7 @@
         word-wrap: break-word;
         background-color: #fff;
         background-clip: border-box;
-        border: 1px solid rgba(0, 0, 0, 0.125);
+        border: 1px solid #c8ced3;
         border-radius: 0.25rem;
     }
 
@@ -43,8 +43,8 @@
     .card-header {
         padding: 0.75rem 1.25rem;
         margin-bottom: 0;
-        background-color: rgba(0, 0, 0, 0.03);
-        border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+        background-color: #f0f3f5;
+        border-bottom: 1px solid #c8ced3;
     }
 
     .card-body {
@@ -57,12 +57,12 @@
         background-color: #fff;
         border-color: #80bdff;
         outline: 0;
-        box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+        box-shadow: 0 0 0 0 #f44336;
     }
 </style>
 
-<div style="display: flex;">
-    <div id="payingCard" style="display:none; margin:auto;" class="padding">
+<div style="display:flex;">
+    <div id="payingCard" style="display:none;margin:auto;" class="padding">
         <div style="justify-content:left;" class="row">
             <div class="col-sm-12">
                 <div class="card">
@@ -77,8 +77,8 @@
 
 
 
-                                    <label for="name">Name</label>
-                                    <input class="form-control" id="name" type="text" placeholder="Enter your name">
+                                    <label for="name">İsim</label>
+                                    <input class="form-control" id="name" type="text" placeholder="Kart üzerindeki isim">
                                 </div>
                             </div>
                         </div>
@@ -86,7 +86,7 @@
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="form-group">
-                                    <label for="ccnumber">Credit Card Number</label>
+                                    <label for="ccnumber">Kredi Kartı Numarası</label>
 
 
                                     <div class="input-group">
@@ -158,10 +158,10 @@
         </div>
     </div>
 </div>
-<div id="paySummary" style="width:500px; display:none;" class="card">
-    <div class="card-body mx-4">
-        <div class="container">
-            <p class="my-5 mx-5" style="font-size:30px;">Thank for your purchase</p>
+<div id="paySummary" style="margin:25px; display:none;" class="card">
+    <div class="card-body justify-content-between">
+        <div class="align-content-center">
+            <p class="my-5 mx-5" style="font-size:30px;">Satın aldığınız için teşekkürler!</p>
             <div class="row">
                 <ul class="list-unstyled">
                     <li class="text-black">@User.Identity.Name</li>
@@ -184,7 +184,8 @@
                 </div>
                 <div class="col-xl-2">
                     <p class="float-end">
-                        10.00Tl
+                        10.00
+                        TL
                     </p>
                 </div>
                 <hr>
@@ -264,6 +265,8 @@
     decimal shipPrice = 10.00M;
     totalPrice = totalPrice + shipPrice;
 }
+<br/>
+<br/>
 
 <div id="summaryFirst" style="display:flex;">
     <div style="display:grid">
@@ -304,7 +307,7 @@
             document.getElementById("payingCard").style.display = "none";
             document.getElementById("payOK").style.display = "block";
         } else {
-            alert("Lütfen bilgileriniz tam giriniz!")
+            alert("Siparişinize dair bir mail alacaksınız!")
         }
 
 
